@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.content{
+	width:1100px;
+	height:800px;
+	background-color:rgb(203,214,203);
+}
+.cont{
+	display:grid;
+	grid-template-columns:200px 600px 200px;
+	grid-template-rows:auto auto;
+	right:19px;
+	border-style: ridge;
+	border-width:4px;
+	align-self:center;
+	padding:3px;
+	gap:10px white;
+}
+img{
+	width:190px;
+	height:150px;
+}
+.content>img{
+	padding:5px;
+	width:40%;
+	height:200px;
+}
